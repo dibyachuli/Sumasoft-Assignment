@@ -16,7 +16,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
           pip install playwright
-          pip install pytest-playwright
-          playwright install --with-deps
       - name: Run Tests
         run: pytest tests -v
